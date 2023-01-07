@@ -1,8 +1,6 @@
 with open('Input.txt', mode='r', encoding='utf-8') as file:
     input = file.read().split('\n')
 
-print(input)
-
 input_cleaned = [int(value) if value != '' else value for value in input]
 
 totals = []
